@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <div className='grid-container'>
+    <div className='grid-container' style={{overflow: "hidden"}}>
       <Header OpenSidebar={OpenSidebar}/>
       <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
       <Home />
